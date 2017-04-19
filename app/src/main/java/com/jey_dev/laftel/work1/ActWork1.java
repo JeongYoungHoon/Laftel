@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.jey_dev.laftel.R;
+import com.jey_dev.laftel.Work;
 import com.jey_dev.lib.based.JActivity;
 
 /**
@@ -28,22 +29,22 @@ public class ActWork1 extends JActivity {
         final int viewId=v.getId();
         switch (viewId){
             case R.id.work1_1:
-                setResult(Work1.read(new int[]{}));
+                setResult(Work.Work1.read(new int[]{}));
                 break;
             case R.id.work1_2:
-                setResult(Work1.read(new int[]{1}));
+                setResult(Work.Work1.read(new int[]{1}));
                 break;
             case R.id.work1_3:
-                setResult(Work1.read(new int[]{1,3}));
+                setResult(Work.Work1.read(new int[]{1,3}));
                 break;
             case R.id.work1_4:
-                setResult(Work1.read(new int[]{1,2,3}));
+                setResult(Work.Work1.read(new int[]{1,2,3}));
                 break;
             case R.id.work1_5:
-                setResult(Work1.read(new int[]{1,2,3,6,8,9,10}));
+                setResult(Work.Work1.read(new int[]{1,2,3,6,8,9,10}));
                 break;
             case R.id.work1_6:
-                setResult(Work1.read(new int[]{13, 14, 15, 16, 20, 23, 24, 25, 100}));
+                setResult(Work.Work1.read(new int[]{13, 14, 15, 16, 20, 23, 24, 25, 100}));
                 break;
         }
     }

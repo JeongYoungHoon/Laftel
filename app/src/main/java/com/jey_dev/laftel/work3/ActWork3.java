@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.jey_dev.laftel.R;
+import com.jey_dev.laftel.Work;
 import com.jey_dev.lib.based.JActivity;
 
 /**
@@ -36,23 +37,22 @@ public class ActWork3 extends JActivity {
     public void goWork(View v) {
         final int viewId=v.getId();
         String result="";
+        String str1="";
+        String str2="";
         switch (viewId){
             case R.id.work3_1:
-                PokerData pData1_1=new PokerData("As 8d Ad 8c 5d");
-                PokerData pData1_2=new PokerData("Qh Qs Jd Kd Jc");
-                result=Work3.playPoker(pData1_1,pData1_2);
+                str1="As 8d Ad 8c 5d";
+                str2="Qh Qs Jd Kd Jc";
                 break;
             case R.id.work3_2:
-                PokerData pData2_1=new PokerData("Ks Kc Jd Kd Jc");
-                PokerData pData2_2=new PokerData("Jh Js Jd Kd Jc");
-                result=Work3.playPoker(pData2_1,pData2_2);
+                str1="Ks Kc Jd Kd Jc";
+                str2="Jh Js Jd Kd Jc";
                 break;
             case R.id.work3_3:
-                PokerData pData3_1=new PokerData("Ad Kh Ac 7h 7d");
-                PokerData pData3_2=new PokerData("Ah Kh Ac 7h 7d");
-                result=Work3.playPoker(pData3_1,pData3_2);
+                str1="Ad Kh Ac 7h 7d";
+                str2="Ah Kh Ac 7h 7d";
                 break;
         }
-        setResult(result);
+        setResult(Work.Work3.playPoker(str1,str2));
     }
 }

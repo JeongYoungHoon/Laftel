@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.jey_dev.laftel.R;
+import com.jey_dev.laftel.Work;
 import com.jey_dev.lib.based.JActivity;
 
 /**
@@ -26,11 +27,11 @@ public class ActWork2 extends JActivity {
     }
 
     public void goWork(View v) {
-//        setResult(Work2.reverse("The quick <font color=\"brown\">br<b>ow</b>n</font> fox jumps over the <i>lazy</i> dog"));
-//        setResult(Work2.reverse("The quick <font color=\"brown\">brown</font> fox jumps over the <i>lazy</i> dog"));
-//        setResult(Work2.reverse("ab<tr>cd<i>ef<b>gh</b><b>ij</b></i>kl</tr>mn<b>op</b>"));
-//        setResult(new WordData("ab<tr>cd<i>ef<b>gh</b><b>ij</b></i>kl</tr>mn<b>op</b>").getResult());
-        setResult(Work2.reverse("ab<tr>cd<i>ef<b>g<br>h</b><b>ij</b></i>kl</tr>mn<b>op</b>"));
+        setResult(Work.Work2.reverse("The quick <font color=\"brown\">brown</font> fox jumps over the <i>lazy</i> dog"));
+//        setResult(Work.Work2.reverse("The quick <font color=\"brown\">br<b>ow</b>n</font> fox jumps over the <i>lazy</i> dog"));
+//        setResult(Work.Work2.reverse("ab<tr>cd<i>ef<b>gh</b><b>ij</b></i>kl</tr>mn<b>op</b>"));
+//        setResult(Work.Work2.reverse("ab<tr>cd<i>ef<b>gh</b><b>ij</b></i>kl</tr>mn<b>op</b>").getResult());
+//        setResult(Work.Work2.reverse("ab<tr>cd<i>ef<b>g<br>h</b><b>ij</b></i>kl</tr>mn<b>op</b>"));
     }
 
     private void setTitle(final String title) {
