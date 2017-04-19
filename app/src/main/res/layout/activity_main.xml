@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work1"
+        android:minEms="10"
+        android:onClick="goWork1"
+        android:layout_margin="10dip"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work2"
+        android:minEms="10"
+        android:onClick="goWork2"
+        android:layout_margin="10dip"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work3"
+        android:minEms="10"
+        android:onClick="goWork3"
+        android:layout_margin="10dip"/>
+</LinearLayout>

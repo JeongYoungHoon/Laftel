@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laftel</string>
+    <string name="work1">과제 #1</string>
+    <string name="work2">과제 #2</string>
+    <string name="work3">과제 #3</string>
+    <string name="result">결과값 :</string>
+    <string name="show_result">결과 보기</string>
+</resources>

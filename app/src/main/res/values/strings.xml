@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Laftel</string>
+    <string name="work1">Work #1</string>
+    <string name="work2">Work #2</string>
+    <string name="work3">Work #3</string>
+
+    <string name="work1_1" translatable="false">[]</string>
+    <string name="work1_2" translatable="false">[1]</string>
+    <string name="work1_3" translatable="false">[1, 3]</string>
+    <string name="work1_4" translatable="false">[1, 2, 3]</string>
+    <string name="work1_5" translatable="false">[1, 2, 3, 6, 8, 9, 10]</string>
+    <string name="work1_6" translatable="false">[13, 14, 15, 16, 20, 23, 24, 25, 100]</string>
+
+    <string name="work3_1" translatable="false">\"As 8d Ad 8c 5d\",\"Qh Qs Jd Kd Jc\"</string>
+    <string name="work3_2" translatable="false">\"Ks Kc Jd Kd Jc\",\"Jh Js Jd Kd Jc\"</string>
+    <string name="work3_3" translatable="false">\"Ad Kh Ac 7h 7d\",\"Ah Kh Ac 7h 7d\"</string>
+
+
+    <string name="result">Result :</string>
+    <string name="show_result">Show Result</string>
+</resources>
